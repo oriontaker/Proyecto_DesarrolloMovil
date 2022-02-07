@@ -10,14 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Examen_Ramirez">
         <activity
-            android:name=".InicioActivity"
+            android:name=".Principal"
             android:exported="true"
-            android:label="Personal a Ingresar - ABC SAC">
+            android:label="Bienvenidos">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".InicioActivity"
+            android:exported="true"
+            android:label="Personal a Ingresar - ABC SAC"
+            android:parentActivityName=".Principal">
         </activity>
         <activity
             android:name=".MainActivity"
