@@ -61,8 +61,8 @@ class MainActivity : AppCompatActivity() {
         val telefono = txtTelefono.text.toString()
 
 
-        if (nombre.isEmpty()){
-            Toast.makeText(this,"Ingresar el nombre", Toast.LENGTH_LONG).show()
+        if (nombre.isEmpty() || empresa.isEmpty() || cargo.isEmpty() || telefono.isEmpty()){
+            Toast.makeText(this,"Ingresar todos los campos", Toast.LENGTH_LONG).show()
         }else {
             val obj = Personal()
             if (modificar){
