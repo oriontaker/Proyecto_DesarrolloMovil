@@ -16,6 +16,7 @@
         android:clickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/verdeclaro400"
         app:srcCompat="@drawable/ic_add"
         tools:ignore="SpeakableTextPresentCheck"/>
 

@@ -31,6 +31,7 @@
         <entry key="..\:/ProyectosMoviles/Examen_Ramirez/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
         <entry key="..\:/ProyectosMoviles/Examen_Ramirez/app/src/main/res/layout/dato.xml" value="0.371875" />
         <entry key="..\:/ProyectosMoviles/Examen_Ramirez/app/src/main/res/layout/datobox.xml" value="0.371875" />
+        <entry key="..\:/ProyectosMoviles/ProyectoGrupal/TB2/Proyecto_DesarrolloMovil/app/src/main/res/layout/activity_principal.xml" value="0.371875" />
         <entry key="..\:/ProyectosMoviles/TB2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.225" />
         <entry key="..\:/ProyectosMoviles/TB2/app/src/main/res/drawable/app.xml" value="0.225" />
         <entry key="..\:/ProyectosMoviles/TB2/app/src/main/res/drawable/caja_personalizada.xml" value="0.225" />
@@ -88,6 +89,21 @@
         <entry key="..\:/ProyectosMoviles/TB4/app/src/main/res/layout/activity_principal.xml" value="0.371875" />
         <entry key="..\:/ProyectosMoviles/TB4/app/src/main/res/layout/datobox.xml" value="0.371875" />
         <entry key="..\:/ProyectosMoviles/TB4/app/src/main/res/layout/item_sede.xml" value="0.365625" />
+        <entry key="..\:/Users/Luis Enrique/Documents/TB2/Proyecto_DesarrolloMovil/app/src/main/res/drawable/caja_personalizada.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Luis Enrique/Documents/TB2/Proyecto_DesarrolloMovil/app/src/main/res/drawable/custom_apaterno.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Luis Enrique/Documents/TB2/Proyecto_DesarrolloMovil/app/src/main/res/drawable/custom_capacidad.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Luis Enrique/Documents/TB2/Proyecto_DesarrolloMovil/app/src/main/res/drawable/custom_cargo.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Luis Enrique/Documents/TB2/Proyecto_DesarrolloMovil/app/src/main/res/drawable/custom_temperatura.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Luis Enrique/Documents/TB2/Proyecto_DesarrolloMovil/app/src/main/res/drawable/personalizar_datobox.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Luis Enrique/Documents/TB2/Proyecto_DesarrolloMovil/app/src/main/res/drawable/personalizar_selector.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/Luis Enrique/Documents/TB2/Proyecto_DesarrolloMovil/app/src/main/res/layout/activity_aplicaciones.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Luis Enrique/Documents/TB2/Proyecto_DesarrolloMovil/app/src/main/res/layout/activity_inicio.xml" value="0.13385416666666666" />
+        <entry key="..\:/Users/Luis Enrique/Documents/TB2/Proyecto_DesarrolloMovil/app/src/main/res/layout/activity_inicio_app.xml" value="0.13385416666666666" />
+        <entry key="..\:/Users/Luis Enrique/Documents/TB2/Proyecto_DesarrolloMovil/app/src/main/res/layout/activity_inicio_sedes.xml" value="0.259375" />
+        <entry key="..\:/Users/Luis Enrique/Documents/TB2/Proyecto_DesarrolloMovil/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Luis Enrique/Documents/TB2/Proyecto_DesarrolloMovil/app/src/main/res/layout/activity_main_sedes.xml" value="0.264" />
+        <entry key="..\:/Users/Luis Enrique/Documents/TB2/Proyecto_DesarrolloMovil/app/src/main/res/layout/activity_principal.xml" value="0.264" />
+        <entry key="..\:/Users/Luis Enrique/Documents/TB2/Proyecto_DesarrolloMovil/app/src/main/res/layout/datobox.xml" value="0.1793478260869565" />
       </map>
     </option>
   </component>

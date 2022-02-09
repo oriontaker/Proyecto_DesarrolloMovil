@@ -14,6 +14,7 @@
         android:layout_marginTop="24dp"
         android:clickable="true"
         app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/verdeclaro400"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_name_focus"
         tools:ignore="SpeakableTextPresentCheck" />
@@ -24,6 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="24dp"
+        android:backgroundTint="@color/verdeclaro400"
         android:clickable="true"
         app:layout_constraintStart_toEndOf="@+id/btnPersonal"
         app:layout_constraintTop_toTopOf="parent"
@@ -39,6 +41,7 @@
         android:clickable="true"
         app:layout_constraintStart_toEndOf="@+id/btnAplicaciones"
         app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/verdeclaro400"
         app:srcCompat="@drawable/ic_distrito_focus"
         tools:ignore="SpeakableTextPresentCheck" />
 
@@ -68,6 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
+
         android:text="Sedes"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/btnSedes" />
@@ -83,6 +87,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/custom_temperatura" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="150dp"
+        android:text="SOFTKEY V1.0"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:textColor="@color/verdeclaro600"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

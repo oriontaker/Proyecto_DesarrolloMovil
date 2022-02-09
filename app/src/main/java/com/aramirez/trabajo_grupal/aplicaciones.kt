@@ -72,7 +72,7 @@ class aplicaciones : AppCompatActivity() {
 
         if (nombre.isEmpty() || url.isEmpty() || cantidad.isEmpty() || costo.isEmpty() ||  categoria.isEmpty() || equipoCargo.isEmpty())
         {
-            Toast.makeText(this, "Tendrá que ingresar todos los registros", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Debe ingresar todos los campos", Toast.LENGTH_LONG).show()
 
         }else{
             val obj = Aplicacion()

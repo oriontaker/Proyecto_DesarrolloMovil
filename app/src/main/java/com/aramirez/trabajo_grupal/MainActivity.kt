@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
 
 
         if (nombre.isEmpty() || empresa.isEmpty() || cargo.isEmpty() || telefono.isEmpty()){
-            Toast.makeText(this,"Ingresar todos los campos", Toast.LENGTH_LONG).show()
+            Toast.makeText(this,"Debe ingresar todos los campos", Toast.LENGTH_LONG).show()
         }else {
             val obj = Personal()
             if (modificar){

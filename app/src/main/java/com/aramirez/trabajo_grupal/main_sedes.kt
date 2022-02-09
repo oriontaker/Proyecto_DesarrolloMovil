@@ -61,8 +61,8 @@ class main_sedes : AppCompatActivity() {
         val capacidad = etCapacidad.text.toString()
 
 
-        if (nombre.isEmpty()){
-            Toast.makeText(this,"Ingresar el nombre", Toast.LENGTH_LONG).show()
+        if (nombre.isEmpty() || direccion.isEmpty() || distrito.isEmpty() || capacidad.isEmpty()){
+            Toast.makeText(this,"Debe ingresar todos los campos", Toast.LENGTH_LONG).show()
         }else {
             val obj = Sede()
             if (modificar){
