@@ -1,4 +1,4 @@
-package com.aramirez.examen_ramirez
+package com.aramirez.trabajo_grupal
 
 import android.content.DialogInterface
 import android.content.Intent
@@ -8,8 +8,8 @@ import android.util.Log
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.aramirez.examen_ramirez.agregarupc.Personal
-import com.aramirez.examen_ramirez.modelo.RegistroDAO
+import com.aramirez.trabajo_grupal.agregarupc.Personal
+import com.aramirez.trabajo_grupal.modelo.RegistroDAO
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class InicioActivity : AppCompatActivity() {

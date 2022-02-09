@@ -1,4 +1,4 @@
-package com.aramirez.examen_ramirez.util
+package com.aramirez.trabajo_grupal.util
 
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase

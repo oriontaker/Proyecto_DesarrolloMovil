@@ -1,12 +1,12 @@
-package com.aramirez.examen_ramirez.modelo
+package com.aramirez.trabajo_grupal.modelo
 
 import android.content.ContentValues
 import android.content.Context
 import android.database.Cursor
 import android.util.Log
-import com.aramirez.examen_ramirez.agregarupc.Personal
-import com.aramirez.examen_ramirez.util.Constantes
-import com.aramirez.examen_ramirez.util.SQLiteHelper
+import com.aramirez.trabajo_grupal.agregarupc.Personal
+import com.aramirez.trabajo_grupal.util.Constantes
+import com.aramirez.trabajo_grupal.util.SQLiteHelper
 
 class RegistroDAO(context: Context) {
     private var sqLiteHelper:SQLiteHelper = SQLiteHelper(context)

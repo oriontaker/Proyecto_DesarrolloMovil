@@ -1,4 +1,4 @@
-package com.aramirez.examen_ramirez
+package com.aramirez.trabajo_grupal
 
 import android.content.Context
 import android.content.Intent
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.widget.ImageButton
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.aramirez.examen_ramirez.agregarupc.Personal
+import com.aramirez.trabajo_grupal.agregarupc.Personal
 
 class customAdapter(context: Context, listaPersonal:ArrayList<Personal>):RecyclerView.Adapter<customAdapter.MiVista>() {
 

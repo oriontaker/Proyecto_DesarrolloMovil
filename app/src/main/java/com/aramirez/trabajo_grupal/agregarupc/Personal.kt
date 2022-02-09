@@ -1,4 +1,4 @@
-package com.aramirez.examen_ramirez.agregarupc
+package com.aramirez.trabajo_grupal.agregarupc
 
 class Personal {
 

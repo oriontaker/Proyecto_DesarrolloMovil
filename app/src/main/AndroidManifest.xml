@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.aramirez.examen_ramirez">
+    package="com.aramirez.trabajo_grupal">
 
     <application
         android:allowBackup="true"
@@ -15,6 +15,7 @@
             android:label="Bienvenidos">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -22,14 +23,35 @@
             android:name=".InicioActivity"
             android:exported="true"
             android:label="Personal a Ingresar - ABC SAC"
-            android:parentActivityName=".Principal">
-        </activity>
+            android:parentActivityName=".Principal" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="Registro de personal"
-            android:parentActivityName=".InicioActivity">
-        </activity>
+            android:parentActivityName=".InicioActivity" />
+        <activity
+            android:name=".inicio_app"
+            android:exported="true"
+            android:label="Aplicaciones"
+            android:parentActivityName=".Principal" />
+        <activity
+            android:name=".aplicaciones"
+            android:exported="true"
+            android:label="Registro de Aplicaciones"
+            android:parentActivityName=".inicio_app" />
+
+        <activity
+            android:name=".inicio_sedes"
+            android:exported="true"
+            android:label="Lista de Sedes"
+            android:parentActivityName=".Principal"/>
+        <activity
+            android:name=".main_sedes"
+            android:exported="true"
+            android:label="Registro de Sedes"
+            android:parentActivityName=".inicio_sedes" />
+
+
     </application>
 
 </manifest>

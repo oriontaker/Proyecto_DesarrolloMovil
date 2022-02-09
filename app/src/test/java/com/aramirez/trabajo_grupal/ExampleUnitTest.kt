@@ -1,4 +1,4 @@
-package com.aramirez.examen_ramirez
+package com.aramirez.trabajo_grupal
 
 import org.junit.Test
 

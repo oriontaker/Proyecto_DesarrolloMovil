@@ -1,4 +1,4 @@
-package com.aramirez.examen_ramirez
+package com.aramirez.trabajo_grupal
 
 import android.content.DialogInterface
 import android.content.Intent
@@ -8,8 +8,8 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import com.aramirez.examen_ramirez.agregarupc.Personal
-import com.aramirez.examen_ramirez.modelo.RegistroDAO
+import com.aramirez.trabajo_grupal.agregarupc.Personal
+import com.aramirez.trabajo_grupal.modelo.RegistroDAO
 
 class MainActivity : AppCompatActivity() {
 
