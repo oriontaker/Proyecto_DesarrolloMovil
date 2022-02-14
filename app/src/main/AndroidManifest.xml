@@ -9,15 +9,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Examen_Ramirez">
+
         <activity
-            android:name=".Principal"
+            android:name=".MainLogin"
             android:exported="true"
-            android:label="Bienvenidos">
+            android:label="LOGIN APP">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Registrar"
+            android:exported="true"
+            android:label="REGISTRO de USUARIOS"
+            android:parentActivityName=".MainLogin">
+        </activity>
+
+        <activity
+            android:name=".Principal"
+            android:exported="true"
+            android:label="Bienvenidos"
+            android:parentActivityName=".MainLogin">
+
         </activity>
         <activity
             android:name=".InicioActivity"
@@ -39,19 +54,16 @@
             android:exported="true"
             android:label="Registro de Aplicaciones"
             android:parentActivityName=".inicio_app" />
-
         <activity
             android:name=".inicio_sedes"
             android:exported="true"
             android:label="Lista de Sedes"
-            android:parentActivityName=".Principal"/>
+            android:parentActivityName=".Principal" />
         <activity
             android:name=".main_sedes"
             android:exported="true"
             android:label="Registro de Sedes"
             android:parentActivityName=".inicio_sedes" />
-
-
     </application>
 
 </manifest>
