@@ -45,6 +45,19 @@
         app:srcCompat="@drawable/ic_distrito_focus"
         tools:ignore="SpeakableTextPresentCheck" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnUbiSedes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/verdeclaro400"
+        android:clickable="true"
+        app:layout_constraintStart_toEndOf="@+id/btnSedes"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_direccion"
+        tools:ignore="SpeakableTextPresentCheck" />
+
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
@@ -75,6 +88,16 @@
         android:text="Sedes"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/btnSedes" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:text="Ubicación Sedes"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/btnUbiSedes" />
 
     <ImageView
         android:id="@+id/imageView3"

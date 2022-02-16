@@ -10,6 +10,7 @@ class Principal : AppCompatActivity() {
     private lateinit var btnPersonal:FloatingActionButton
     private lateinit var btnAplicaciones:FloatingActionButton
     private lateinit var btnSedes:FloatingActionButton
+    private lateinit var btnUbiSedes:FloatingActionButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,8 +18,8 @@ class Principal : AppCompatActivity() {
         asignarPersonal()
         asignarAplicaciones()
         asignarSedes()
+        asignarUbiSede()
     }
-
     private fun asignarPersonal() {
         btnPersonal =findViewById(R.id.btnPersonal)
         btnPersonal.setOnClickListener{
@@ -51,5 +52,19 @@ class Principal : AppCompatActivity() {
         val intentsedes  = Intent(baseContext,inicio_sedes::class.java)
         startActivity(intentsedes)
     }
+
+    private fun asignarUbiSede() {
+        btnUbiSedes =findViewById(R.id.btnUbiSedes)
+        btnUbiSedes.setOnClickListener{
+            abrirUbiSede()
+        }
+    }
+
+    private fun abrirUbiSede() {
+        val intentUbiSede  = Intent(baseContext,maps::class.java)
+        startActivity(intentUbiSede)
+    }
+
+
 
 }
